@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<com.free.launcher.clock.ClockView android:background="#ccc"-->
+        <!--android:layout_width="match_parent" android:layout_height="300dp"-->
+        <!--android:padding="10dp"-->
+        <!--app:TimeTextSize="80sp"-->
+        <!--app:DateTextSize="20sp"-->
+        <!--app:TimeTextColor="#33b5e5"-->
+        <!--app:DateTextColor="#33b5e5"-->
+        <!--app:LoadingString="Loading ...."-->
+        <!--app:ShadowColor="#FFFF00FF"-->
+        <!--app:padTextSize="12sp"-->
+        <!--app:ClockDrawable="@android:drawable/ic_menu_add" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@android:color/black">
+    <com.free.launcher.clock.ClockView
+        android:id="@+id/mClockView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </LinearLayout>
+</FrameLayout>

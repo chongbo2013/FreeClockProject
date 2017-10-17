@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="LoadingString" format="string" />
+        <attr name="TimeTextSize" format="dimension" />
+        <attr name="DateTextSize" format="dimension" />
+        <attr name="padTextSize" format="dimension" />
+        <attr name="TimeTextColor" format="color" />
+        <attr name="DateTextColor" format="color" />
+        <attr name="ShadowColor" format="color" />
+        <attr name="ClockDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>
