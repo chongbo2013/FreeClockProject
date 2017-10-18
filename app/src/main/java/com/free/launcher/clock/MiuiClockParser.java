@@ -6,5 +6,5 @@ package com.free.launcher.clock;
  * Created by xff on 2017/10/18.
  */
 
-public class MiuiClickParser extends BaseParse {
+public class MiuiClockParser extends BaseParse {
 }
