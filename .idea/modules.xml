@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/FreeClockProject.iml" filepath="$PROJECT_DIR$/FreeClockProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/openweathermaphelper/openweathermaphelper.iml" filepath="$PROJECT_DIR$/openweathermaphelper/openweathermaphelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugintest/plugintest.iml" filepath="$PROJECT_DIR$/plugintest/plugintest.iml" />
     </modules>
   </component>
 </project>

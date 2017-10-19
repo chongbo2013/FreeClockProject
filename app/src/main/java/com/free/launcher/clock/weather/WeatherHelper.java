@@ -2,8 +2,9 @@ package com.free.launcher.clock.weather;
 
 import android.content.Context;
 import android.os.Handler;
+import android.view.View;
 
-import com.free.launcher.clock.ClockView;
+
 import com.free.launcher.clock.R;
 import com.kwabenaberko.openweathermaplib.implementation.OpenWeatherMapHelper;
 import com.kwabenaberko.openweathermaplib.models.currentweather.CurrentWeather;
@@ -23,11 +24,11 @@ public class WeatherHelper implements OpenWeatherMapHelper.CurrentWeatherCallbac
     private OpenWeatherMapHelper mHelper;
     private Handler mHandler;
     private String mIcon;
-    private ClockView clockView;
+    private View clockView;
     private WeatherIconProvider iconProvider;
     private boolean stopped = false;
 
-    public WeatherHelper(ClockView clockView, Context context) {
+    public WeatherHelper(View clockView, Context context) {
         this.clockView = clockView;
         iconProvider = new WeatherIconProvider(context);
         mHandler = new Handler();
@@ -63,8 +64,8 @@ public class WeatherHelper implements OpenWeatherMapHelper.CurrentWeatherCallbac
     }
 
     private void update() {
-        if(clockView!=null)
-        clockView.update(makeTemperatureString(mTemp),iconProvider.getIcon(mIcon));
+//        if(clockView!=null)
+//        clockView.update(makeTemperatureString(mTemp),iconProvider.getIcon(mIcon));
     }
 
 
